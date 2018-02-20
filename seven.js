@@ -4,7 +4,7 @@
 function add(...num) {
   res = 0;
   for (i in num) {
-    res = +i;
+    res += num[i];
   }
   return res;
 }
