@@ -3,7 +3,7 @@
 // two numbers and returns the smaller one
 
 function minb(a, b) {
-  return a > b ? a : b;
+  return a > b ? b : a;
 }
 
-console.log(minb(3, 4));
+console.log(minb(6, 3));
