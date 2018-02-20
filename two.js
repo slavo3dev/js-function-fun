@@ -6,4 +6,4 @@
 function addb(a, b) {
   return a + b;
 }
-addb(a, b);
+console.log(addb(2, 3));
