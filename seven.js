@@ -10,3 +10,13 @@ function add(...num) {
 }
 
 console.log(add(1, 2, 3, 4, 5, 6));
+
+console.log('-----------------------------');
+
+function add_one(...nums) {
+  return nums.reduce((total, curr) => {
+    return total + curr;
+  }, 0);
+}
+
+console.log(add_one(1, 2, 3, 4, 5, 6));
