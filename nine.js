@@ -12,10 +12,10 @@ console.log(min(1, 2, 4));
 
 console.log('*********************');
 
-function min_one(...nums) {
-  return nums.reduce((result, num) => {
-    return minb(result, num);
-  }, Number.MAX_VALUE);
-}
+// function min_one(...nums) {
+//   return nums.reduce((result, num) => {
+//     return minb(result, num); using func from min
+//   }, Number.MAX_VALUE);
+// }
 
 console.log(min_one(1, 2, 4));
